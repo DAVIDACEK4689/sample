@@ -22,14 +22,14 @@ function App() {
     <BrowserRouter>
       <div className="text-center">
         <nav>
-          <Link to="/"><Button color="warning" className="m-3">Input + label</Button></Link>
           <Link to="/increment"><Button color="warning" className="m-3">Increment button</Button></Link>
+          <Link to="/"><Button color="warning" className="m-3">Input + label</Button></Link>
           <Link to="/decrement"><Button color="warning" className="m-3">Decrement button</Button></Link>  
         </nav>
 
         <Routes>
-          <Route path="/" element={<Input/>} />
           <Route path="/increment" element={<Increment/>} />
+          <Route path="/" element={<Input/>} />
           <Route path="/decrement" element={<Decrement/>} />
         </Routes>
       </div>
