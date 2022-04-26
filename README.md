@@ -1,4 +1,31 @@
-# Getting Started with Create React App
+# Base React app + Dockerfile for the 4th lab from Advanced Programming of Web Applications
+
+To run app, just clone the repository and run <code>docker-compose up -d --build</code>. Be sure you have already installed docker. If you are using windows I recommend you downloading Docker Desktop: https://docs.docker.com/desktop/windows/install/ and run it. The Desktop Docker app needs to be running before building a project, otherwise you will have a running error (at least I did).
+
+
+# Used resources
+I used the following resources to create my app:
+for input and label:
+https://reactjs.org/docs/forms.html
+
+for buttons and counter:
+https://stackoverflow.com/questions/53165945/what-is-usestate-in-react
+https://reactjs.org/docs/hooks-overview.html
+
+for createContext, useContext and useState:
+https://reactjs.org/docs/context.html
+
+for routing:
+https://v5.reactrouter.com/web/guides/quick-start
+
+for reactstrap and bootstrap:
+https://getbootstrap.com/docs/4.1/utilities/colors/
+https://www.w3schools.com/bootstrap4/bootstrap_utilities.asp
+
+for Docker deployment:
+https://mherman.org/blog/dockerizing-a-react-app/
+
+# The app was created by: Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
