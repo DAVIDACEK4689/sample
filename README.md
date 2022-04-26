@@ -1,6 +1,6 @@
 # Base React app + Dockerfile for the 4th lab from Advanced Programming of Web Applications
 
-To run app, just clone the repository and run <code>docker-compose up -d --build</code>. Be sure you have already installed docker. If you are using windows I recommend you downloading Docker Desktop: https://docs.docker.com/desktop/windows/install/ and run it. The Desktop Docker app needs to be running before building a project, otherwise you will have a running error (at least I did).
+To run app, just clone the repository and run <code>docker-compose up -d --build</code>. The running app will be available at: <code>http://localhost:3001/</code> Be sure you have already installed docker. If you are using windows I recommend you downloading Docker Desktop: https://docs.docker.com/desktop/windows/install/ and run it. The Desktop Docker app needs to be running before building a project, otherwise you will have a running error (at least I did).
 
 
 # Used resources
